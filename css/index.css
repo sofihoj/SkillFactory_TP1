@@ -1,0 +1,109 @@
+.cabecera {
+    position: fixed;
+    width: 100%;
+    height: 123px;
+    left: 0;
+    top: 0px;
+    background: url(https://media-exp1.licdn.com/dms/image/C4E16AQFhFCW5vJTb7g/profile-displaybackgroundimage-shrink_200_800/0/1629575909360?e=1665619200&v=beta&t=QzKN-lhH8oMxApyKwTpGc9UFMzLLgpHCX2JeTACDxro);
+    background-size: cover; 
+}
+
+/* .logo {
+    /*display: flex;
+    position: absolute;
+    width: 756px;
+    height: 164px; 
+    left: 0px;
+    top: -1px;
+    background: url(https://media-exp1.licdn.com/dms/image/C4D1BAQHhVUH0ha6CeA/company-background_10000/0/1652983975116?e=1660579200&v=beta&t=HFBaeEcG-Rd8rXycGY1W1MEPgf9oOjUZSPUKK7sD-3U);
+    background-size: cover;     
+}*/
+
+.fondo {
+    position: absolute;
+    width: 903px;
+    height: 500px;
+    left: 430px;
+    top: 139px;
+    opacity: 0.4;
+    /*transform: scaleX(-1)*/
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 603px;
+    background: #000000;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
+.nombre {
+    margin-left: 29px;
+    margin-top: 27px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.letra_A {
+    position: absolute;
+    left: 1270px;
+    top: 18px;
+    width: 37px;
+    height: 37px;
+}
+
+button {
+    position: absolute;
+    color: #000;
+	background-color:#fff;
+	border: 4px solid #000000;
+    border-radius: 30px;
+    width: 233px;
+    height: 149px;
+    top: 273px;
+
+	padding: .5em 1em;
+	font-size: 1.3em;
+	cursor: pointer;
+    /* display: block;
+    clear: both; */
+    margin: 10px 0px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    border: 5px solid #000000;
+    box-shadow: 4px 4px 4px 4px #d35158;
+    border-radius: 30px;
+}
+.boton-formulario {
+    left: 248px;
+}
+
+.boton-tabla {
+    left: 523px;
+}
+
+.boton-cards {
+    left: 799px;
+}
+

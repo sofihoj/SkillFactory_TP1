@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Skill Factory</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <header class="cabecera">
+
+    </header>
+    
+    <img src="https://www.avalith.net/careers/mind-fullness.svg" class="foto">
+    
+    <form id="form-adicionar">
+        <p class="form-titulo">Queremos saber quién sos!</p>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" class="input-usuario" required> 
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" class="input-email" required placeholder="email@dominio.com">
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea cols="70" rows="10" id="mensaje" name="mensaje" class="input-mensaje"></textarea>
+
+        <button id="adicionar-usuario" class="btn-principal">Enviar formulario</button>
+    </form>
+
+    <section class="container">
+        <h3>Usuarios creados</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Email</th>
+                    <th>Comentario</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-usuarios">
+                <tr class="usuario">
+                    <!-- <td class="info-usuario"></td>
+                    <td class="info-correo"></td>
+                    <td class="info-mensaje"></td> -->
+                </tr>
+            </tbody>
+        </table>
+        <ul id="mensajes-errores"></ul>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/sof%C3%ADa-hojberg/" target="_blank"><p class="nombre">TP 1 - Sofía Hojberg</p></a>     
+        <a href="https://www.avalith.net/" target="_blank"><img class="letra_A" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTppuu8Ag-X_IvfJ2p8JoljKUZALzs71j7e_A&usqp=CAU" alt="A de Avalith"></a>
+    </footer>
+    
+</body>
+<script src="./js/formulario.js"></script>
+</html>
